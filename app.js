@@ -4,14 +4,21 @@ const sub_heading = <p>Now with more text in a subheading</p>;
 const name = 'Adam';
 const welcome = <p>Welcome {name}!</p>
 
+const message = (
+<p> Hello there! </p>
+);
+
 const header = React.createElement(
   'header',
    null,
    title,
    desc,
    sub_heading,
-   welcome
+   welcome,
+   message
 );
+
+
 
 
 ReactDOM.render(
